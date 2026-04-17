@@ -1,0 +1,18 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:vm="clr-namespace:AvaloniaApplication1"
+        mc:Ignorable="d"
+        x:Class="AvaloniaApplication1.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        Title="Launcher">
+
+    <StackPanel Margin="20" Spacing="10">
+        <TextBlock Text="My Launcher" FontSize="20"/>
+        
+        <Button Content="Start Emulator"
+                Command="{Binding StartCommand}" />
+    </StackPanel>
+
+</Window>

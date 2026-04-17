@@ -1,0 +1,44 @@
+# Build outputs
+src/bin/
+src/obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / JetBrains
+.idea/
+*.DotSettings.user
+
+# Visual Studio
+.vs/
+
+# Avalonia / .NET hot reload
+*.dll
+*.exe
+*.pdb
+
+# Publish folders
+src/publish/
+src/out/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# NuGet
+*.nupkg
+src/packages/
+src/.nuget/
+
+# Local config / secrets (important for launcher apps)
+appsettings.Development.json
+secrets.json
+
+# Avalonia designer cache
+*.axaml.g.cs
